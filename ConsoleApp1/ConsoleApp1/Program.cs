@@ -14,21 +14,23 @@ do {
     Console.WriteLine("4. Find Highest Grade");
     Console.WriteLine("5. Exit");
     Console.WriteLine("==========================");
-    Console.WriteLine("Choose an option: ");
+    Console.Write("Choose an option: ");
+
 
     option = Convert.ToInt32(Console.ReadLine());
 
     if (option == 1) {
-        Console.WriteLine("Enter student name: ");
+        Console.WriteLine("");
+        Console.Write("Enter student name: ");
         names[count] = Console.ReadLine();
 
-        Console.WriteLine("Enter grade 1: ");
+        Console.Write("Enter grade 1: ");
         grades[count, 0] = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter grade 2: ");
+        Console.Write("Enter grade 2: ");
         grades[count, 1] = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter grade 3: ");
+        Console.Write("Enter grade 3: ");
         grades[count, 2] = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Student added successfully!");
@@ -36,6 +38,7 @@ do {
     }
 
     else if (option == 2) {
+        Console.WriteLine("");
         for (int i = 0; i < count; i++) {
         int sum = grades[i, 0] + grades[i, 1] + grades[i, 2];
         double avg = sum / 3.0;
@@ -48,7 +51,8 @@ do {
     }
 
     else if (option == 3) {
-    double total = 0;
+        Console.WriteLine("");
+        double total = 0;
 
         for (int i = 0; i < count; i++) {
         int sum = grades[i, 0] + grades[i, 1] + grades[i, 2];
@@ -66,8 +70,9 @@ do {
     }
 
     else if (option == 4) {
-    int highest = -1;
-    string topStudent = " ";
+        Console.WriteLine("");
+        int highest = -1;
+        string topStudent = " ";
 
         for (int i = 0; i < count; i++) {
 
@@ -86,12 +91,14 @@ do {
     }
 
     else if (option == 5) {
-    Console.WriteLine("Exiting program...");
-    Console.WriteLine("Goodbye!");
+     Console.WriteLine("");
+     Console.WriteLine("Exiting program...");
+     Console.WriteLine("Goodbye!");
     }
 
     else {
-    Console.WriteLine("Invalid option!");
+     Console.WriteLine("");
+     Console.WriteLine("Invalid option!");
     }
 
     Console.WriteLine();
