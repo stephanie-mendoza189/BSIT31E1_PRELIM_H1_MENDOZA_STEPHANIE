@@ -6,6 +6,7 @@ int count = 0;
 int option;
 
 
+do { 
     Console.WriteLine(" ===== STUDENT SYSTEM ===== ");
     Console.WriteLine("1. Add Student");
     Console.WriteLine("2. View All Students");
@@ -95,7 +96,9 @@ int option;
 
     Console.WriteLine();
 
+ } 
 
+while (option != 5) ;
 
 
 
