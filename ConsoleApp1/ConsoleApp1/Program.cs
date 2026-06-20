@@ -1,12 +1,14 @@
 ﻿
 using System;
+using ConsoleApp1;
+using static ConsoleApp1.StudentSystemFunction;
 
 string[] names = new string[100];
 int[,] grades = new int[100, 3];
-//int count = 0;
+int count = 0;
 
 
-//type hereeeee
+StudentSystemFunction studentSystem = new StudentSystemFunction();
 
 int option;
 
@@ -25,22 +27,25 @@ do
 
     if (option == 1)
     {
-        //type here
+        studentSystem.AddStudent(names, grades, ref count);
     }
 
     else if (option == 2)
     {
-        //type here
+        studentSystem.ViewStudents(names, grades, count);
+
     }
 
     else if (option == 3)
     {
-        //type here
+        studentSystem.ComputeAverage(grades, count);
+
     }
 
     else if (option == 4)
     {
-        //type heree
+        studentSystem.FindHighestGrade(names, grades, count);
+
     }
 
     else if (option == 5)
