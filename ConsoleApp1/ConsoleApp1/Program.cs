@@ -110,11 +110,3 @@ while (option != 5) ;
 //Gumanakanapls try ulit lmao
 
 
-//Lewis > Kimi
-
-//Lokiii
-
-//Mercedes W11
-
-//okk
-
