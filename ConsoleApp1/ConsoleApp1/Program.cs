@@ -7,7 +7,7 @@ int option;
 
 
 do { 
-    Console.WriteLine(" ===== STUDENT SYSTEM ===== ");
+    Console.WriteLine(" ===== STUDENT SYSTEM C# ===== ");
     Console.WriteLine("1. Add Student");
     Console.WriteLine("2. View All Students");
     Console.WriteLine("3. Compute Average Grade");
@@ -107,5 +107,10 @@ do {
 
 while (option != 5) ;
 
-//try
+//
+
+
+
+
+
 
