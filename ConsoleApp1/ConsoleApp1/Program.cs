@@ -110,4 +110,3 @@ while (option != 5) ;
 //Gumanakanapls try ulit lmao
 
 
-//ayoko na
