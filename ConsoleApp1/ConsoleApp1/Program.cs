@@ -25,19 +25,19 @@ namespace ConsoleApp1
 
                 if (option == 1)
                 {
-                   // type here
+                    studentSystem.AddStudent();
                 }
                 else if (option == 2)
                 {
-                    // type here
+                    studentSystem.ViewStudents();
                 }
                 else if (option == 3)
                 {
-                    // type here
+                    studentSystem.ComputeAverage();
                 }
                 else if (option == 4)
                 {
-                    // type here
+                    studentSystem.FindHighestGrade();
                 }
                 else if (option == 5)
                 {
