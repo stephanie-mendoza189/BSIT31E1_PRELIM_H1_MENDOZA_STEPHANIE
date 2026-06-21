@@ -1,5 +1,5 @@
 using System;
-
+//oksi na
 namespace ConsoleApp1
 {
     class Program
