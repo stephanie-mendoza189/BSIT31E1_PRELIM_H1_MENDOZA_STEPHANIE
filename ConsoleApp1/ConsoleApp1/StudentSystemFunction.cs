@@ -1,5 +1,6 @@
 using System;
 
+//ogei
 namespace ConsoleApp1
 {
     public class StudentSystemFunction
